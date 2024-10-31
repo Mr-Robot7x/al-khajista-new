@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'poppins';
+}
+
+h1 {
+  @apply md:text-5xl font-bold text-4xl 
+}
+h2 {
+  @apply md:text-4xl text-2xl font-bold
+}
+h3 {
+  @apply md:text-3xl text-2xl font-medium
+}
+.dd {
+  filter: drop-shadow(0 0 2rem #fea75f64);
+}
+.text-grd {
+  background: -webkit-linear-gradient(45deg, #f45060, #ED852F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-grd {
+  background: -webkit-linear-gradient(45deg, #E80019, #ED852F);
+}
+.ts {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.sideAni {
+  animation: side 0.25s linear 0s 1 ;
+}
+
+@keyframes side {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
