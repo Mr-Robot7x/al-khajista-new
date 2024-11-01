@@ -7,11 +7,11 @@ function ContactUS() {
     <section className="bg-grd md:w-11/12 w-full grid md:grid-cols-2 grid-cols-1 gap-1 md:px-5 px-2 md:py-8 rounded-3xl">
       <div className="flex flex-col md:pl-7 md:mt-14 mt-10 relative text-white md:ml-16 pb-32">
         <h2>Ready to Make Your Move?</h2>
-        <p className="text-lg mt-2">
+        <p className="md:text-lg text-base md:mt-2 mt-4">
           Get in touch with us today for a no-obligation quote and discover how
           we can make your relocation seamless and stress-free!
         </p>
-        <div className="flex gap-x-3 mt-3">
+        <div className="flex gap-x-3 md:mt-3 mt-10">
           <Button>Request A Quote</Button>
           <Button variant="secondary" className="text-black">
             Call Now

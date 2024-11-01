@@ -4,11 +4,12 @@ import experinec from "../../../public/images/years-experience.png";
 import moves from "../../../public/images/moves-complete.png";
 import reviews from "../../../public/images/clients-reivews.png";
 import Image from "next/image";
+import Link from "next/link";
 function HeroSection() {
   return (
     <section
       id="Hero-Section"
-      className="md:w-11/12 w-full p-1 mt-6 grid md:grid-cols-2 grid-cols-1 items-center md:ml-12"
+      className="md:w-11/12 w-full p-1 md:mt-6 mt-9 grid md:grid-cols-2 grid-cols-1 items-center md:ml-12 md:gap-0 gap-y-5"
     >
       <div>
         <h1>
@@ -23,13 +24,15 @@ function HeroSection() {
           We are Licensed Moving Company in UAE and provide reliable movers and
           packers services for the last 6 years to our valuable customers.
         </p>
-        <div className="mt-10 flex gap-x-5">
-          <Button variant="secondary">Our Services</Button>
+        <div className="md:mt-10 mt-5 flex gap-x-5">
+          <Link href={"/services"} title="Moving Services">
+            <Button variant="secondary">Our Services</Button>
+          </Link>
           <Button>About Us</Button>
         </div>
       </div>
       <div>
-        <div className="md:w-96 w-80 h-[500px] mx-auto bg-grd mt-5 rounded-t-full relative  -z-10">
+        <div className="md:w-96 w-full md:h-[500px] h-[470px] mx-auto bg-grd mt-5 rounded-t-full relative  -z-10">
           <div className="md:w-72 w-72 md:p-0 p-3 md:h-14 h-13 bg-white shadow-xl rounded-3xl absolute md:top-36 md:-right-16 -right-0 z-20 flex items-center justify-center gap-x-3 top-[55%] left-1/2 md:-translate-x-0 -translate-x-1/2 md:-translate-y-0 -translate-y-1/2">
             <div className="w-10 h-10 rounded-full relative">
               <Image
@@ -75,7 +78,7 @@ function HeroSection() {
             fill
             priority
             loading="eager"
-            className="object-contain drop-shadow-2xl md:mt-0 mt-2.5"
+            className="object-contain drop-shadow-2xl mt-0 "
           />
         </div>
       </div>

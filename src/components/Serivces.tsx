@@ -45,7 +45,7 @@ function Serivces() {
         </div>
       </div>
       <div className="flex flex-wrap items-center justify-center md:gap-x-7 gap-y-9 mt-16">
-        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 p-3 rounded-3xl overflow-hidden">
+        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 px-3 py-5 rounded-3xl overflow-hidden">
           <div className="absolute -top-1/4 -right-28 w-52 h-52 bg-[#ffdbbf]/50 blur-3xl rounded-full"></div>
           <div className="w-[70px] min-h-[70px] relative rounded-full mb-4">
             <Image
@@ -78,7 +78,7 @@ function Serivces() {
             </svg>
           </Button>
         </div>
-        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 p-3 rounded-3xl overflow-hidden">
+        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 px-3 py-5 rounded-3xl overflow-hidden">
           <div className="absolute -top-1/4 -right-28 w-52 h-52 bg-[#ffdbbf]/50 blur-3xl rounded-full"></div>
           <div className="w-[70px] min-h-[70px] relative rounded-full mb-4">
             <Image
@@ -111,7 +111,7 @@ function Serivces() {
             </svg>
           </Button>
         </div>
-        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 p-3 rounded-3xl overflow-hidden">
+        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 px-3 py-5 rounded-3xl overflow-hidden">
           <div className="absolute -top-1/4 -right-28 w-52 h-52 bg-[#ffdbbf]/50 blur-3xl rounded-full"></div>
           <div className="w-[70px] min-h-[70px] relative rounded-full mb-4">
             <Image
@@ -144,7 +144,7 @@ function Serivces() {
             </svg>
           </Button>
         </div>
-        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 p-3 rounded-3xl overflow-hidden">
+        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 px-3 py-5 rounded-3xl overflow-hidden">
           <div className="absolute -top-1/4 -right-28 w-52 h-52 bg-[#ffdbbf]/50 blur-3xl rounded-full"></div>
           <div className="w-[70px] min-h-[70px] relative rounded-full mb-4">
             <Image
@@ -177,7 +177,7 @@ function Serivces() {
             </svg>
           </Button>
         </div>
-        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 p-3 rounded-3xl overflow-hidden">
+        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 px-3 py-5 rounded-3xl overflow-hidden">
           <div className="absolute -top-1/4 -right-28 w-52 h-52 bg-[#ffdbbf]/50 blur-3xl rounded-full"></div>
           <div className="w-[70px] min-h-[70px] relative rounded-full mb-4">
             <Image
@@ -210,7 +210,7 @@ function Serivces() {
             </svg>
           </Button>
         </div>
-        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 p-3 rounded-3xl overflow-hidden">
+        <div className="md:w-[390px] w-full bg-white shadow-lg shadow-neutral-100 relative md:p-5 px-3 py-5 rounded-3xl overflow-hidden">
           <div className="absolute -top-1/4 -right-28 w-52 h-52 bg-[#ffdbbf]/50 blur-3xl rounded-full"></div>
           <div className="w-[70px] min-h-[70px] relative rounded-full mb-4">
             <Image

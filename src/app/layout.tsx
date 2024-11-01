@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import dynamic from "next/dynamic";
+import Footer from "@/components/Footer";
 
 const Navbar = dynamic(() => import("@/components/Navbar"), {
   loading: () => <div>Loading...</div>,
@@ -61,6 +62,7 @@ export default function RootLayout({
       <body className={`container ${poppins.variable}  antialiased`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -34,7 +34,7 @@ const buttonVariants: Record<ButtonVariant, string> = {
 const buttonSizes: Record<ButtonSize, string> = {
   default: "py-3 px-6 rounded-full",
   sm: "py-2 px-4 rounded-full",
-  lg: "h-11 rounded-md px-8",
+  lg: "h-14 rounded-full px-8",
   icon: "h-12 w-12 rounded-full",
 };
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "./UI/Button";
 import Image from "next/image";
 import imgSrc from "../../public/images/cities.png";
-function ServicesLocations() {
+function ServicesLocations({ title, desc }: { title: string; desc: string }) {
   return (
     <section className="md:mt-24 mt-10 w-full flex justify-center md:pt-10">
       <div className="md:w-11/12 w-full grid md:grid-cols-2 grid-cols-1 md:gap-x-5 gap-y-10">
@@ -13,13 +13,9 @@ function ServicesLocations() {
             className="absolute bottom-14 right-0 md:block hidden"
           />
           <h2 className="md:text-5xl text-3xl">
-            We Covers Major Areas <br /> In UAE
+            {title} <br /> In UAE
           </h2>
-          <p className="md:text-xl text-lg mt-6">
-            Providing expert moving and packing services across major areas in
-            the UAE, including Dubai, Sharjah, Ajman, and beyond. Trust us for
-            seamless, reliable moves across the Emirates.
-          </p>
+          <p className="md:text-xl text-lg mt-6">{desc}</p>
           <Link aria-label="Discover Now" href={"/about"}>
             <Button className="md:mt-8 mt-5 px-5 py-4 rounded-[50px] text-lg">
               Discover Now

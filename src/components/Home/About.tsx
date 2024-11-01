@@ -7,7 +7,7 @@ function About() {
       <div className="md:order-2 order-1">
         <p className="text-xl text-grd">About Us</p>
         <p className="font-bold md:text-4xl text-3xl">
-          Let’s Get Moving – Today!{" "}
+          Let’s Get Moving – Today!
           <span className="md:block inline-block">With Professionals</span>
         </p>
         <p className="mt-4 md:text-xl text-lg">
